@@ -78,6 +78,7 @@
                     android:layout_marginLeft="5dip"
                     android:layout_marginRight="5dip"
                     android:layout_weight="1"
+                    android:gravity="center"
                     android:background="@drawable/wdj_phoenix_themed_button_background_grey"
                     android:textColor="@color/wandou_font_color_black"
                     android:textSize="16dip"
@@ -90,6 +91,7 @@
                     android:layout_marginLeft="5dip"
                     android:layout_marginRight="5dip"
                     android:layout_weight="1"
+                    android:gravity="center"
                     android:textColor="@color/wandou_font_color_white"
                     android:textSize="16dip"
                     android:text="@string/ads_install_text"
@@ -104,6 +106,7 @@
                 android:layout_alignParentRight="true"
                 android:layout_marginTop="2dip"
                 android:layout_marginRight="2dip"
+                android:visibility="gone"
                 android:background="@drawable/wdj_ads_close_widget_button_background"/>
     </RelativeLayout>
 
