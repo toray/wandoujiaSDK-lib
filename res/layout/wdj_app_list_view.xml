@@ -15,7 +15,7 @@
             android:textSize="18sp"
             android:drawableTop="@drawable/wdj_ads_empty_background"/>
 
-    <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+    <ListView 
               android:id="@+id/wdj_apps_list"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
